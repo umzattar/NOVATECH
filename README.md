@@ -3,6 +3,11 @@
 > A full-stack web platform that helps students discover their ideal technology career path through intelligent career guidance, personalized learning roadmaps, and curated professional certifications.
 
 ---
+## Live Website
+
+https://novatech-navy.vercel.app/EXAM/exam.html
+
+---
 
 ## About
 
