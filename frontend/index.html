@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaTech Solutions - Business Landing Page</title>
+
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!--  HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+
+      <div class="logo">NOVATECH</div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#benefits">Features</a></li>
+          <li><a href="page/page.html">Contact</a></li>
+          <li><a href="EXAM/exam.html">Start Quiz</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!--  HERO SECTION -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>NovaTech Solutions</h1>
+          <p>
+            Helping students discover their ideal tech career path,
+            personalized roadmaps, and curated certifications.
+          </p>
+          <a href="page/page.html" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!--  WHAT WE DO -->
+    <section id="services" class="section what-we-do">
+      <div class="container">
+        <h2 class="section-title">What We Do</h2>
+
+        <div class="cards-grid">
+
+          <article class="card">
+            <h3>Career Guidance</h3>
+            <p>
+              We analyze students’ strengths and interests to help them discover the tech career path that fits them best.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Smart Skill Assessment</h3>
+            <p>
+              Advanced assessment tools that highlight skill gaps and provide clearer direction for career growth.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Learning Roadmaps</h3>
+            <p>
+              Step-by-step personalized learning paths that guide students toward mastering critical tech skills.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Curated Certifications</h3>
+            <p>
+              A selection of top-rated courses and recognized certifications to help students advance faster.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!--  BRIDGE SECTION  -->
+    <section class="pf-bridge">
+      <div class="pf-bridge-container">
+
+        <div class="pf-bridge-image">
+          <img src="images/first.png" alt="Bridging the gap between learners and real career opportunities">
+        </div>
+
+        <div class="pf-bridge-text">
+          <h2>Bridging the gap between learners and real career opportunities</h2>
+          <p>
+            Empowers individuals with a personalized, skill-aligned career discovery experience — helping them understand their
+            strengths, explore the tech roles that fit them best, and follow structured learning paths that lead to real,
+            future-ready opportunities.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--  BENEFITS TABS  -->
+  <section id="benefits" class="benefits-section">
+
+    <h2 class="benefits-title">Program benefits</h2>
+
+    <div class="tabs">
+      <button class="active" data-tab="institutions">Institutions</button>
+      <button data-tab="educators">Educators</button>
+      <button data-tab="students">Students</button>
+      <button data-tab="employers">Employers</button>
+    </div>
+
+    <!-- Institutions -->
+    <div class="tab-content active" id="institutions">
+      <div class="tab-grid">
+        <div>
+<h3 class="tab-title">Universities & Colleges</h3>
+          <ul>
+            <li>Prepare students for modern tech careers</li>
+            <li>Support students with guided career choices</li>
+            <li>Increase graduate employability</li>
+          </ul>
+        </div>
+
+        <div class="tab-img-box">
+          <img src="images/educationimage.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Educators -->
+    <div class="tab-content" id="educators">
+      <div class="tab-grid">
+        <div>
+          <h3 class="tab-title">Mentors & Career Coaches</h3>
+          <ul>
+            <li>Help students choose their ideal path</li>
+            <li>Save time with automated recommendations</li>
+            <li>Provide personalized guidance</li>
+          </ul>
+        </div>
+
+        <div class="tab-img-box">
+          <img src="images/F.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Students -->
+    <div class="tab-content" id="students">
+      <div class="tab-grid">
+        <div>
+          <h3 class="tab-title">Students & Learners</h3>
+          <ul>
+            <li>Discover your ideal career path</li>
+            <li>Follow customized learning roadmaps</li>
+            <li>Access curated certifications</li>
+          </ul>
+        </div>
+
+        <div class="tab-img-box">
+          <img src="images/study.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Employers -->
+    <div class="tab-content" id="employers">
+      <div class="tab-grid">
+        <div>
+          <h3 class="tab-title">Companies & Employers</h3>
+          <ul>
+            <li>Hire career-ready talent</li>
+            <li>Reduce onboarding time</li>
+            <li>Find candidates with verified learning paths</li>
+          </ul>
+        </div>
+
+        <div class="tab-img-box">
+          <img src="images/lastimage.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--  FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© Developed by Reema</p>
+    </div>
+  </footer>
+<script>
+    const tabs = document.querySelectorAll(".tabs button");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach(btn => {
+      btn.addEventListener("click", () => {
+        tabs.forEach(b => b.classList.remove("active"));
+        contents.forEach(c => c.classList.remove("active"));
+
+        btn.classList.add("active");
+        document.getElementById(btn.dataset.tab).classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>

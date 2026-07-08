@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Quiz </title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="exam.css" />
+  <script src="exam.js" defer></script>
+</head>
+
+<body>
+<!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">NOVATECH</div>
+
+  <nav class="main-nav">
+  <a href="../index.html">Home</a>
+  <a href="../index.html#services">Services</a>
+  <a href="../index.html#benefits">Benefits</a>
+  <a href="../page/page.html">Contact</a>
+  <a href="exam.html" class="active">Start Quiz</a>
+  </nav>
+  </div>
+  </header>
+
+  <!-- Hero Section  -->
+  <section class="quiz-hero">
+    <div class="container">
+      <h1>Start Your Quiz</h1>
+      <p>Answer 20 questions to discover your ideal tech career path.</p>
+    </div>
+  </section>
+
+  <!--  MAIN WRAPPER  -->
+  <section class="start-box-wrapper">
+
+    <!-- QUIZ SECTION (hidden first) -->
+    <section id="quizSection" class="quiz-container" style="display:none;">
+      <div class="quiz-card">
+          <h2 id="quizTitle"></h2>
+          <p id="progressText"></p>
+
+          <div id="questionBox" class="question-box"> </div>
+          <div id="optionsBox" class="options-box"></div>
+
+          <div class="actions">
+              <button id="nextBtn" class="btn" disabled>Next</button>
+          </div>
+      </div>
+    </section>
+    <!-- START BOX -->
+    <div class="start-box" id="startBox">
+      <h2>Ready to begin?</h2>
+      <p>This short assessment will analyze your strengths and interests.</p>
+
+      <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2025 NovaTech Solutions. Developed by Reema</p>
+    </div>
+  </footer>
+
+</body>
+</html>

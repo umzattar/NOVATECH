@@ -1,0 +1,71 @@
+/* start of bridege gab section */
+.pf-bridge {
+  padding: 120px 0;
+  background: #fff;
+}
+.pf-bridge {
+  background-color: var(--animation);
+}
+.pf-bridge-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 150px;
+  align-items: center;
+}
+
+.pf-bridge-image {
+  border-radius: 22px;
+  overflow: hidden;
+  background: #f6f7ff;
+}
+
+.pf-bridge-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 22px;
+}
+
+.pf-bridge-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0e0e0f;
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+.pf-bridge-text p {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  max-width: 650px;
+  color: #333;
+}
+
+@media (max-width: 900px) {
+  .pf-bridge-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .pf-bridge-text p {
+    margin: 0 auto;
+  }
+}
+/* end of bridege gab section */
+
+
+/* ===== Home responsive ===== */
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 70vh;
+  }
+}
